@@ -166,4 +166,4 @@ typedef struct __PEB // 65 elements, 0x210 bytes
 
 BOOL getSyscalls(PVOID pNtdllBase, Syscall* Syscalls[], DWORD dwNumberOfSyscalls);
 extern NTSTATUS DoSyscall(VOID);
-
+void Init_syscall();
